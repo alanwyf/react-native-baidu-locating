@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alanwyf">
+    package="com.alanwyf.baidulocation">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
@@ -34,9 +34,4 @@
             </action>
         </intent-filter>
     </service>
-    
-    <meta-data
-        android:name="com.baidu.lbsapi.API_KEY"
-        android:value="7m3DEalvp4yWLi76gmnlGUyAhOTWePxW" />
-
 </manifest>

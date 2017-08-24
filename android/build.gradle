@@ -24,6 +24,11 @@ android {
     abortOnError false
     warning 'InvalidPackage'
   }
+  sourceSets {
+      main {
+          jniLibs.srcDirs = ['libs']
+      }
+  }
 }
 
 repositories {
