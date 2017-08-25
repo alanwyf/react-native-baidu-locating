@@ -1,5 +1,5 @@
 # react-native-baidu-locating
-for baidu loaction 7
+for baidu loaction 7, react native 0.44.0
 
 time : 2017-08-24 19:46:51
 locType : 161
