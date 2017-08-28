@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/alanwyf/react-native-baidu-locating.git"
   },
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "for baidu location7",
   "author": "Yuanfang Wang <19593300@qq.com>",
   "nativePackage": true,
