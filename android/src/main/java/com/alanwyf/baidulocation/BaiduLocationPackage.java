@@ -4,7 +4,6 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
-import com.facebook.react.bridge.JavaScriptModule;
 import com.alanwyf.baidulocation.BaiduLocationModule;
 
 import java.util.ArrayList;
@@ -21,11 +20,6 @@ public class BaiduLocationPackage implements ReactPackage{
         List<NativeModule> modules = new ArrayList<>();
         modules.add(new BaiduLocationModule((reactContext)));
         return modules;
-    }
-
-    @Override
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
     }
 
     @Override
