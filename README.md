@@ -1,5 +1,5 @@
 # react-native-baidu-locating
-for baidu loaction 7, react native 0.44.0
+for baidu loaction 7, react native 0.44.0, config detail: http://lbsyun.baidu.com/index.php?title=android-locsdk
 
 time : 2017-08-24 19:46:51
 locType : 161
