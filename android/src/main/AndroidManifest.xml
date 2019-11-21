@@ -24,8 +24,8 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-
-    <service
+    <application>
+      <service
         android:name="com.baidu.location.f"
         android:enabled="true"
         android:process=":remote" >
@@ -33,5 +33,6 @@
             <action android:name="com.baidu.location.service_v2.2" >
             </action>
         </intent-filter>
-    </service>
+      </service>
+    </application>
 </manifest>
